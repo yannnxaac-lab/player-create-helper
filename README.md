@@ -42,7 +42,7 @@
 - [code.js](/Users/hausing/Documents/image create/code.js)
 - [ui.html](/Users/hausing/Documents/image create/ui.html)
 - [icon.svg](/Users/hausing/Documents/image create/icon.svg)
-- [README.md](/Users/hausing/Documents/image create/README.md)
+- [README.md]
 
 对方在 Figma 里执行：
 
@@ -52,8 +52,8 @@
 
 内部安装和操作文档：
 
-- [INSTALL_CN.md](/Users/hausing/Documents/image create/INSTALL_CN.md)
-- [SOP_CN.md](/Users/hausing/Documents/image create/SOP_CN.md)
+- [INSTALL_CN.md]
+- [SOP_CN.md]
 
 ## 放到 GitHub
 
@@ -61,18 +61,10 @@
 
 - GitHub 适合托管源码、发布 ZIP、给同事下载
 - GitHub 本身不会让同事在 Figma 里“一键安装”
-- 同事通常还是需要下载后，用 `Import plugin from manifest...` 导入 [manifest.json](/Users/hausing/Documents/image create/manifest.json)
+- 同事通常还是需要下载后，用 `Import plugin from manifest...` 导入 [manifest.json]
 
 更完整的 GitHub 分发说明见：
-[GITHUB_SETUP.md](/Users/hausing/Documents/image create/GITHUB_SETUP.md)
-
-## 关于图标
-
-- 我已经给你准备好了一个彩虹底 + `💅` 的图标文件：
-  [icon.svg](/Users/hausing/Documents/image create/icon.svg)
-- 这个文件很适合你后续做正式发布素材
-- 但本地通过 `manifest.json` 导入的开发插件，Figma 不会从 manifest 里读取自定义图标字段
-- 也就是说，本地图标是否显示成自定义样式，不由这个文件直接控制
+[GITHUB_SETUP.md]
 
 ## 生成结果的行为
 
@@ -118,9 +110,3 @@
 - 右侧背景颜色大方向是对的
 - 批量生成后的排版间距适合你继续导出
 
-如果试完你觉得右侧颜色还不够像你手动吸色的效果，我下一轮可以继续帮你改成：
-
-- 更偏“主色”
-- 更偏“浅底色”
-- 更偏“奶油感”
-- 或者只对 `cf-bg` 里的某一个指定图层上色
