@@ -1,0 +1,16 @@
+{
+  "name": "Player Create Helper",
+  "id": "player-create-helper-local",
+  "api": "1.0.0",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ]
+  },
+  "main": "code.js",
+  "ui": "ui.html"
+}
