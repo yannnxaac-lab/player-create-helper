@@ -1,48 +1,44 @@
 # Player Create Helper
 
-`Player Create Helper` is an internal Figma plugin for batch push image creation.
+这是一个供团队内部使用的 Figma 插件，用于批量生成 push 制图素材。
 
-It helps the team:
+## 给同事安装
 
-- replace album covers in `cf-img`
-- replace album covers in `cf-bg`
-- auto-generate the long background color
-- batch-generate multiple template sets at once
-- prepare frames for PNG export
+1. 在 GitHub 仓库中下载 `Player Create Helper.zip`
+2. 解压压缩包
+3. 打开 Figma
+4. 点击 `Plugins > Development > Import plugin from manifest...`
+5. 选择解压后的 `manifest.json`
+6. 导入后即可使用 `Player Create Helper`
 
-## Internal Distribution
+## 使用前模板要求
 
-This plugin is intended for internal team use through GitHub.
+- 左侧 frame 名为 `cf-img`
+- 右侧 frame 名为 `cf-bg`
+- 两个模板里都要有一层名为 `封面` 的图片层
 
-Recommended teammate workflow:
+运行时可以直接选中：
 
-1. Download `Player Create Helper.zip` from GitHub
-2. Unzip it locally
-3. In Figma, use `Plugins > Development > Import plugin from manifest...`
-4. Select the `manifest.json` file
+- `cf-img` 和 `cf-bg`
+- 或者同时包含它们的父级容器
 
-## Template Rules
+## 插件功能
 
-The selected template must contain:
+- 同时替换左右模板中的专辑封面
+- 自动生成右侧长图背景颜色
+- 一次批量生成多组模板
+- 自动选中生成结果，方便导出 PNG
 
-- one frame named `cf-img`
-- one frame named `cf-bg`
-- one image layer named `封面` inside each frame
-
-You can select:
-
-- `cf-img` and `cf-bg` directly
-- or their shared parent container
-
-## Documents
-
-- `INSTALL_CN.md`: 安装说明
-- `SOP_CN.md`: 使用 SOP
-- `QUICKSTART.md`: quick start
-
-## Main Controls
+## 可调参数
 
 - `每组之间的纵向间距`
 - `右侧背景柔化程度`
 
-If the right-side background looks too light, lower `右侧背景柔化程度`.
+如果右侧背景偏浅，可以把 `右侧背景柔化程度` 调低。
+
+## 仓库结构
+
+- `Player Create Helper.zip`
+  给同事直接下载、解压、导入
+- `source/`
+  插件源码，供后续维护和迭代

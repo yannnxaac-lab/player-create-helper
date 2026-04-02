@@ -1,7 +1,4 @@
 .DS_Store
 
-# Generated distribution artifacts
-dist/*.zip
-
 # Local editor/system noise
 *.log
