@@ -2,7 +2,7 @@
 
 这是一个供团队内部使用的 Figma 插件，用于批量生成 push 制图素材。
 
-## 给同事安装
+## 如何安装
 
 1. 在 GitHub 仓库中下载 `Player Create Helper.zip`
 2. 解压压缩包
